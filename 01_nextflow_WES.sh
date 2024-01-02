@@ -1,6 +1,6 @@
-# Nextflow command to pre-process scRNA-seq raw data
+# Nextflow command to pre-process WES raw data
 
-# scRNA-seq raw data: fastq.gz files
+# WES raw data: fastq.gz files
 # Pipeline: nf-core/sarek (https://nf-co.re/sarek), Version: 3.1.2
 # Input csv file format: patient [patient_name], sample[sample_name], lane [labe_name], fastq_1[fastq.gz], fastq_2[fastq.gz],variantcaller [deepvariant]
 # Reference genome: GRCh38 Gencode v32, download command (provided by Cellranger): wget https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2020-A.tar.gz
